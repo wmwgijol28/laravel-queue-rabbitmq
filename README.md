@@ -188,7 +188,7 @@ An example of your own job class:
 
 namespace App\Queue\Jobs;
 
-use VladimirYuldashev\LaravelQueueRabbitMQ\Queue\Jobs\RabbitMQJob as BaseJob;
+use Wmwgijol28\LaravelQueueRabbitMQ\Queue\Jobs\RabbitMQJob as BaseJob;
 
 class RabbitMQJob extends BaseJob
 {
@@ -216,7 +216,7 @@ Or maybe you want to add extra properties to the payload.
 
 namespace App\Queue\Jobs;
 
-use VladimirYuldashev\LaravelQueueRabbitMQ\Queue\Jobs\RabbitMQJob as BaseJob;
+use Wmwgijol28\LaravelQueueRabbitMQ\Queue\Jobs\RabbitMQJob as BaseJob;
 
 class RabbitMQJob extends BaseJob
 {
@@ -247,7 +247,7 @@ Starting with 8.0, this package supports [Laravel Horizon](http://horizon.larave
 For Lumen usage the service provider should be registered manually as follow in `bootstrap/app.php`:
 
 ```php
-$app->register(VladimirYuldashev\LaravelQueueRabbitMQ\LaravelQueueRabbitMQServiceProvider::class);
+$app->register(Wmwgijol28\LaravelQueueRabbitMQ\LaravelQueueRabbitMQServiceProvider::class);
 ```
 
 ## Consuming Messages
