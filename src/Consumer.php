@@ -12,7 +12,7 @@ use PhpAmqpLib\Exception\AMQPRuntimeException;
 use PhpAmqpLib\Message\AMQPMessage;
 use Symfony\Component\Debug\Exception\FatalThrowableError;
 use Throwable;
-use VladimirYuldashev\LaravelQueueRabbitMQ\Queue\RabbitMQQueue;
+use Wmwgijol28\LaravelQueueRabbitMQ\Queue\RabbitMQQueue;
 
 class Consumer extends Worker
 {
