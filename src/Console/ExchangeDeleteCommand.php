@@ -1,10 +1,10 @@
 <?php
 
-namespace VladimirYuldashev\LaravelQueueRabbitMQ\Console;
+namespace Wmwgijol28\LaravelQueueRabbitMQ\Console;
 
 use Exception;
 use Illuminate\Console\Command;
-use VladimirYuldashev\LaravelQueueRabbitMQ\Queue\Connectors\RabbitMQConnector;
+use Wmwgijol28\LaravelQueueRabbitMQ\Queue\Connectors\RabbitMQConnector;
 
 class ExchangeDeleteCommand extends Command
 {

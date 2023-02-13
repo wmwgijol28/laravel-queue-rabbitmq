@@ -1,6 +1,6 @@
 <?php
 
-namespace VladimirYuldashev\LaravelQueueRabbitMQ;
+namespace Wmwgijol28\LaravelQueueRabbitMQ;
 
 use Exception;
 use Illuminate\Container\Container;
